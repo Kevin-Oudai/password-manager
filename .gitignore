@@ -12,8 +12,19 @@ artifacts/
 
 # Local vault data and backups
 *.pmvault
+*.csv
+vault-entries-*.csv
+password-vault-backup-*.pmvault
 vault*.json
 logs/
+*.log
+
+# Local secrets/config
+.env
+.env.*
+*.key
+*.pem
+*.pfx
 
 # Visual Studio / user-specific files
 .vs/
